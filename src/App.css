@@ -1,0 +1,62 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+.bg-white{
+	background-color: white;
+}
+
+.block {
+	display:block;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.column-content{
+	flex-direction: column;
+}
+
+.flexed{
+	display: flex;
+}
+
+.flexed div{
+	margin: 1rem auto;
+}
+
+.flexed div p {
+	margin-top: 1rem;
+}
+
+.font-large{
+	font-size: 1.5rem;
+}
+
+.items-center{
+	align-items: center;
+}
+
+.margin-top-md{
+	margin-top: 2rem;
+}
+
+.padded-left-right{
+	padding: 0 2rem;
+}
+
+#intro{
+	padding: 2rem 0;
+}
+#intro h1{
+	margin-bottom: 2rem; 
+}
+
+#intro button{
+	margin: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+    .left-side {
+        background: papayawhip;
+        text-align: start;
+    }
+}
